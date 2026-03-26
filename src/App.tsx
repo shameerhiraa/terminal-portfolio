@@ -20,21 +20,52 @@ function App() {
       {/* BOOT / HERO */}
       <header className="boot">
         <div className="boot-logo">SHAMEER</div>
-        <div className="boot-logo">MEETHALE&nbsp;PALORATH  <span className="cursor"></span></div>
+        <div className="boot-logo">
+          MEETHALE&nbsp;PALORATH 
+        </div>
 
+        <div className="role-and-links">
+          <div>
+            <div className="boot-line">
+              <span className="h">ROLE</span> &nbsp; &nbsp;
+              <span className="v">FULLSTACK DEVELOPER</span>
+            </div>
+            <div className="boot-line">
+              <span className="h">LOCATION</span> &nbsp;
+              <span className="v">HELSINGBORG, SWEDEN</span>
+            </div>
+            <div className="boot-line">
+              <span className="h">EXPERIENCE</span> &nbsp;
+              <span className="v">15+ YEARS</span>
+            </div>
+          </div>
 
-        <div className="boot-line">
-          <span className="h">ROLE</span> &nbsp; &nbsp;
-          <span className="v">FULLSTACK DEVELOPER</span>
+          {/* SOCIAL LINKS — same style as .skill-tag, different colors */}
+          <div className="social-links">
+            <a
+              href="https://github.com/shamp1"
+              target="_blank"
+              rel="noreferrer"
+              className="social-tag github"
+              title="GitHub"
+            >
+              <i className="fab fa-github"></i>
+              <span>github</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/shameer-mp-01008a43/"
+              target="_blank"
+              rel="noreferrer"
+              className="social-tag linkedin"
+              title="LinkedIn"
+            >
+              <i className="fab fa-linkedin-in"></i>
+              <span>linkedin</span>
+            </a>
+          </div>
         </div>
-        <div className="boot-line">
-          <span className="h">LOCATION</span> &nbsp;
-          <span className="v">HELSINGBORG, SWEDEN</span>
-        </div>
-        <div className="boot-line">
-          <span className="h">EXPERIENCE</span> &nbsp;
-          <span className="v">15+ YEARS</span>
-        </div>
+
         <div className="boot-line" style={{ marginTop: 10 }}>
           LOADING PROFILE... PLEASE WAIT
         </div>
